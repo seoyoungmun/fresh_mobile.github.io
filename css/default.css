@@ -1,0 +1,43 @@
+@charset "utf-8";
+/*공통*/
+.main .title{padding: 5.78125vw 0; text-align: center; font-size: 6.875vw; background: linear-gradient(to bottom,rgba(226,237,252,0.75),#fff); font-weight: 600;}
+.section{padding-bottom: 6vw; box-shadow:0 2px 2px rgba(0,0,0,0.2); text-align: center;}
+.detail_btn{width: 26.5625vw; padding: 2vw 0; box-sizing: border-box; margin-left: auto; margin-right: auto; margin-top: 1.5vw;}
+
+
+/*main*/
+.main .main_banner{background: url(../images/main/main_banner_rosestep.png) no-repeat center center; background-size: 100%; height: 114.84375vw; line-height: 1.25;}
+.main .main_banner .text h2{font-size: 5.3125vw;}
+.main .main_banner .text h3{font-size: 4.35vw;}
+.main .main_banner .text h1{font-size: 5vw;}
+.main .main_banner .text {padding-top: 89vw;}
+
+/*new*/
+.new .row{width: 40.4vw;}
+.new .row .img{width: 40.4vw;}
+.new .rose_morning{float: left;}
+.new .rose_toner{float: right;}
+.new .row h4{border:1px solid #C8CBCD; padding:1vw; line-height: 1.25; margin-bottom: 1.5vw;}
+.new .row h4 span{font-size: 4vw;}
+/*swiper-plugin*/
+.swiper-wrapper{margin-bottom: 7vw;}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{bottom: 0;}
+.swiper-pagination-bullet-active{background:#384249;}
+
+/*best seller*/
+.best .row{width: 40.4vw;}
+.best .row img{width: 30.46875vw;}
+.best .row h4{font-size: 4.375vw;}
+.best .row h4 span{display: block;}
+.best .rose_mask{float: left;}
+.best .sugar_spice{float: right;}
+.best .detail_btn{background: #e2edfc;}
+
+/*award winner*/
+.award .title{position: relative;}
+.award .title .crown{position: absolute; top: 2.5vw; right: 15vw; width: 8vw;}
+.award .award-bg{background: url(../images/main/award_bg.jpg) no-repeat center 1vw; height: 100vw; line-height: 1.25; position: relative; background-size: 100%;}
+.award .award-bg h2{font-size:4.5vw;}
+.award .award-bg h1{font-size:5vw;}
+.award .award-bg h3{font-size: 4vw;}
+.award .detail_btn{background: #f4bf34; position: absolute; bottom: 0; left: 50%; margin-left: -13.28125vw;}
